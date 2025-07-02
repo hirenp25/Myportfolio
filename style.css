@@ -131,6 +131,32 @@ body {
   border-radius: 20px;
   color: white;
 }
+.experience {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: White;
+}
+
+.experience-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.experience-card {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
 /* About Section */
 .about-wrapper {
